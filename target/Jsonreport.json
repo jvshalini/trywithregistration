@@ -1,0 +1,239 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Steps to do Registration",
+        "description": "",
+        "id": "test-me-app-registration;steps-to-do-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76030804300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user enters the username as \"shalini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shalini\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.user_enters_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241244900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter firstname as \"Shalini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shalini\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinition.enter_firstname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233382400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter lastname as \"Varathan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Varathan\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinition.enter_lastname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248263700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the password as \"123Shalini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123Shalini\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.enter_the_password_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 230442500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "reenter as \"123Shalini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123Shalini\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinition.reenter_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113369300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select the gender as Female",
+            "match": {
+              "location": "stepdefinition.select_the_gender_as_Female()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357988700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "give the mail id as \"2343@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2343@gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.give_the_mail_id_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219733700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "give the mobile number as\"3432254376\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3432254376\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.give_the_mobile_number_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378181500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "give the dob as \"23/03/2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23/03/2000\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinition.give_the_dob_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 656358500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "give the address as \"34c/3 njaokelmvk street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"34c/3 njaokelmvk street\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.give_the_address_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 461976700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select the security question as what is ur birth place",
+            "match": {
+              "location": "stepdefinition.select_the_security_question_as_what_is_ur_birth_place()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390362700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "give the answer as \"Singapore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Singapore\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinition.give_the_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684649600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "press the register button",
+            "match": {
+              "location": "stepdefinition.press_the_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Me App Registration",
+    "description": "",
+    "id": "test-me-app-registration",
+    "keyword": "Feature",
+    "uri": "feature/feature1.feature",
+    "tags": []
+  }
+]
